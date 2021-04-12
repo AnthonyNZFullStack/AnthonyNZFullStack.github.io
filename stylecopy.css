@@ -1,0 +1,3753 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  letter-spacing: 0.01em;
+}
+
+* .profilepic {
+  width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  header {
+    width: 100%;
+    color: #F17935;
+    background-color: #0A192F;
+    max-height: 4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1em;
+    border-bottom: 0.3em black solid;
+    position: fixed;
+    top: 0;
+    z-index: 103;
+  }
+  header .header-left {
+    font-size: 1em;
+    font-family: 'Yusei Magic', sans-serif;
+    letter-spacing: 0.2em;
+  }
+  header #header-right {
+    font-size: 1.8em;
+    color: white;
+    padding-right: 0.5em;
+  }
+  header .nav-contentdesktop {
+    display: none;
+  }
+  header .right-icons {
+    display: none;
+  }
+  #slider {
+    background-color: #0A192F;
+    height: 35vh;
+    padding-top: 0.5em;
+    display: none;
+    position: fixed;
+    top: 4em;
+    left: 0;
+    width: 19%;
+    z-index: 100;
+  }
+  #slider .nav-content {
+    padding: 0;
+    color: white;
+  }
+  #slider .nav-content li {
+    padding: 1em;
+  }
+  #slider .nav-content li:hover {
+    color: #F17935;
+  }
+  #slider .nav-content li .nav-style-center {
+    text-align: center;
+  }
+  #slider .nav-content li .nav-style1 {
+    font-size: 1em;
+    text-align: center;
+  }
+  main {
+    background-color: #0A192F;
+    max-height: 580vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 101%;
+  }
+  main .left-icons {
+    margin-top: 4em;
+    min-width: 20.5%;
+    display: block;
+    border-right: thin #F17935 solid;
+    z-index: 95;
+  }
+  main .left-icons .fitsize1 {
+    padding-top: 1em;
+  }
+  main .left-icons .fitsize1 a {
+    position: fixed;
+    color: white;
+  }
+  main .left-icons .fitsize1 a:hover {
+    color: #F17935;
+  }
+  main .left-icons .fitsize1 a i {
+    padding: 0.2em 0.85em;
+    font-size: 1.8em;
+  }
+  main .left-icons .fitsize2 {
+    padding-top: 2.8em;
+  }
+  main .left-icons .fitsize2 a {
+    color: white;
+    position: fixed;
+  }
+  main .left-icons .fitsize2 a:hover {
+    color: #F17935;
+  }
+  main .left-icons .fitsize2 a i {
+    padding: 0.2em 0.9em;
+    font-size: 1.65em;
+  }
+  main .left-icons .fitsize3 {
+    padding-top: 2.5em;
+  }
+  main .left-icons .fitsize3 a {
+    color: white;
+    position: fixed;
+  }
+  main .left-icons .fitsize3 a:hover {
+    color: #F17935;
+  }
+  main .left-icons .fitsize3 a i {
+    padding: 0.2em 0.95em;
+    font-size: 1.65em;
+  }
+  main .right-content {
+    padding: 2em;
+    margin-top: 3.5em;
+  }
+  main .right-content .container-content {
+    text-align: center;
+  }
+  main .right-content .container-content h1 {
+    font-size: 1.5em;
+    color: #F17935;
+    margin-top: 1.5em;
+    -webkit-animation: action 0.8s infinite alternate;
+    animation: action 0.8s infinite alternate;
+  }
+  @-webkit-keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  @keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  main .right-content .container-content .name h2 {
+    font-size: 1.5em;
+    color: #F17935;
+    padding-bottom: 1em;
+    -webkit-animation: action 0.8s infinite alternate;
+    animation: action 0.8s infinite alternate;
+  }
+  @-webkit-keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  @keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  main .right-content .container-content .orangeoutline {
+    background-image: url("asset/sketchoutlinefinal.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 99;
+    height: 25%;
+    width: 60%;
+    position: absolute;
+    top: 4.8em;
+    left: 7.3em;
+    -webkit-animation: action 0.8s infinite alternate;
+    animation: action 0.8s infinite alternate;
+  }
+  @-webkit-keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  main .right-content .container-content .orangeoutline2 {
+    display: none;
+  }
+  main .right-content .container-content .profilepic {
+    max-width: 100%;
+    padding-top: 3em;
+  }
+  main .right-content .container-content .style1 {
+    display: none;
+  }
+  main .right-content .container-content .style2 {
+    text-align: center;
+  }
+  main .right-content .container-content .style2 h3 {
+    font-size: 1.5em;
+    color: #F17935;
+    margin: 0;
+    padding-top: 1.5em;
+  }
+  main .right-content .container-content .style2 h3 .style2-white {
+    padding: 0;
+    font-size: 0.7em;
+    color: rgba(255, 255, 255, 0.705);
+    display: block;
+  }
+  main .right-content .container-content .style2 h3 .style2-white .next-line {
+    display: inline-block;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+  }
+  main .right-content .container-content .style2 h3 .style2-white .next-line2 {
+    display: inline-block;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+  }
+  main .right-content .container-content .style2 h3 .style2-white .next-line3 {
+    display: inline-block;
+    padding-top: 0.5em;
+  }
+  main .right-content .container-content .link-style1 {
+    margin-top: 5em;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+  }
+  main .right-content .container-content .link-style1 a {
+    font-family: 'Yusei Magic', sans-serif;
+    text-decoration: none;
+    background-color: #4682b4;
+    padding: 0.7em 3em;
+    color: white;
+    border-radius: 0.1em;
+    max-width: 90%;
+    max-height: 10%;
+  }
+  main .right-content .container-content .link-style1 a:hover {
+    background-color: #F17935;
+  }
+  main .right-content .container-content .link-style1:hover {
+    -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+            animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+  }
+  @-webkit-keyframes shake {
+    10%,
+    90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+              transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+      -webkit-transform: translate3d(2px, 0, 0);
+              transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translate3d(-4px, 0, 0);
+              transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+      -webkit-transform: translate3d(4px, 0, 0);
+              transform: translate3d(4px, 0, 0);
+    }
+  }
+  @keyframes shake {
+    10%,
+    90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+              transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+      -webkit-transform: translate3d(2px, 0, 0);
+              transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translate3d(-4px, 0, 0);
+              transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+      -webkit-transform: translate3d(4px, 0, 0);
+              transform: translate3d(4px, 0, 0);
+    }
+  }
+  main .right-content .container-content .link-style2 {
+    margin-top: 3em;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+  }
+  main .right-content .container-content .link-style2 a {
+    font-family: 'Yusei Magic', sans-serif;
+    text-decoration: none;
+    background-color: #4682b4;
+    padding: 0.7em 3.7em;
+    color: white;
+    border-radius: 0.1em;
+  }
+  main .right-content .container-content .link-style2 a:hover {
+    background-color: #F17935;
+  }
+  main .right-content .container-content .link-style2:hover {
+    -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+            animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+  }
+  @keyframes shake {
+    10%,
+    90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+              transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+      -webkit-transform: translate3d(2px, 0, 0);
+              transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translate3d(-4px, 0, 0);
+              transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+      -webkit-transform: translate3d(4px, 0, 0);
+              transform: translate3d(4px, 0, 0);
+    }
+  }
+  main .right-content #sectionaboutme {
+    min-height: 60vh;
+  }
+  main .right-content #sectionaboutme .all-headings {
+    display: none;
+  }
+  main .right-content #sectionaboutme .link-style3 {
+    margin-top: 3em;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+  }
+  main .right-content #sectionaboutme .link-style3 a {
+    font-family: 'Yusei Magic', sans-serif;
+    text-decoration: none;
+    background-color: #F17935;
+    padding: 0.7em 3.7em;
+    color: white;
+    border-radius: 0.1em;
+  }
+  main .right-content #sectionaboutme .link-style3:hover {
+    -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+            animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+  }
+  @keyframes shake {
+    10%,
+    90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+              transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+      -webkit-transform: translate3d(2px, 0, 0);
+              transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translate3d(-4px, 0, 0);
+              transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+      -webkit-transform: translate3d(4px, 0, 0);
+              transform: translate3d(4px, 0, 0);
+    }
+  }
+  main .right-content #sectionaboutme h1 {
+    color: #f17a35;
+    text-align: center;
+    margin-top: 3em;
+    z-index: 100;
+    position: relative;
+  }
+  main .right-content #sectionaboutme .aboutme {
+    max-height: 100vh;
+    padding: 0.5em;
+    padding-top: 2em;
+  }
+  main .right-content #sectionaboutme .aboutme .p-style1 p {
+    color: white;
+    font-size: 0.8em;
+    text-justify: inter-word;
+  }
+  main .right-content #sectionaboutme .aboutme .p-style2 {
+    margin-top: 1.5em;
+  }
+  main .right-content #sectionaboutme .aboutme .p-style2 p {
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 0.8em;
+    text-justify: inter-word;
+  }
+  main .right-content #sectionaboutme .aboutme .p-style3 {
+    margin-top: 1.5em;
+  }
+  main .right-content #sectionaboutme .aboutme .p-style3 p {
+    color: rgba(255, 255, 255, 0.486);
+    max-width: 95%;
+    font-size: 0.8em;
+    text-justify: inter-word;
+  }
+  main .right-content #sectionmywork {
+    min-height: 80vh;
+  }
+  main .right-content #sectionmywork .rotating {
+    margin-top: 5em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  main .right-content #sectionmywork .rotating a i {
+    color: white;
+    font-size: 6em;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: rotate 3s infinite;
+            animation: rotate 3s infinite;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+            animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+  }
+  main .right-content #sectionmywork .rotating a i:hover {
+    color: #F17935;
+  }
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  main .right-content #sectionmywork h1 {
+    text-align: center;
+    color: #F17935;
+    margin-bottom: 1em;
+  }
+  main .right-content #sectionmywork .document1 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main .right-content #sectionmywork .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .right-content #sectionmywork .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main .right-content #sectionmywork .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main .right-content #sectionmywork .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main .right-content #sectionmywork .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main .right-content #sectionmywork .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main .right-content #sectionmywork .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main .right-content #sectionmywork .document2 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main .right-content #sectionmywork .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .right-content #sectionmywork .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main .right-content #sectionmywork .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main .right-content #sectionmywork .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main .right-content #sectionmywork .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main .right-content #sectionmywork .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main .right-content #sectionmywork .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main .right-content #sectionmywork .document3 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main .right-content #sectionmywork .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .right-content #sectionmywork .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main .right-content #sectionmywork .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main .right-content #sectionmywork .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main .right-content #sectionmywork .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main .right-content #sectionmywork .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main .right-content #sectionmywork .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  main .right-content #sectionmyinterest {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    color: white;
+  }
+  main .right-content #sectionmyinterest h1 {
+    color: #F17935;
+    text-align: center;
+  }
+  main .right-content #sectionmyinterest .document1 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+  }
+  main .right-content #sectionmyinterest .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .right-content #sectionmyinterest .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main .right-content #sectionmyinterest .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main .right-content #sectionmyinterest .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main .right-content #sectionmyinterest .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main .right-content #sectionmyinterest .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main .right-content #sectionmyinterest .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main .right-content #sectionmyinterest .document2 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+  }
+  main .right-content #sectionmyinterest .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .right-content #sectionmyinterest .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main .right-content #sectionmyinterest .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main .right-content #sectionmyinterest .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main .right-content #sectionmyinterest .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main .right-content #sectionmyinterest .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main .right-content #sectionmyinterest .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main .right-content #sectionmyinterest .document3 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+  }
+  main .right-content #sectionmyinterest .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .right-content #sectionmyinterest .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main .right-content #sectionmyinterest .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main .right-content #sectionmyinterest .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main .right-content #sectionmyinterest .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main .right-content #sectionmyinterest .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main .right-content #sectionmyinterest .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  Footer {
+    background-color: #172A45;
+    min-height: 40vh;
+    width: 101%;
+    text-align: center;
+    color: white;
+  }
+  Footer .f1 {
+    padding: 1em;
+  }
+  Footer .f1 h4 {
+    width: 20%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f1 p {
+    font-size: 0.9em;
+  }
+  Footer .f2 {
+    padding: 1em;
+  }
+  Footer .f2 h4 {
+    width: 20%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f2 p {
+    font-size: 0.9em;
+  }
+  Footer .f3 {
+    padding: 1em;
+  }
+  Footer .f3 h4 {
+    width: 20%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f3 p {
+    font-size: 0.9em;
+  }
+  Footer .f4 {
+    padding: 1em;
+  }
+  Footer .f4 h4 {
+    width: 20%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f4 p {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 639px) {
+  .orangeoutline {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+  * {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  header {
+    background-color: #0a192f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 5em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 0.4em black solid;
+    z-index: 100;
+  }
+  header .header-left {
+    color: #f17935;
+    margin: auto;
+  }
+  header #header-right {
+    display: none;
+  }
+  header .nav-contentdesktop {
+    font-size: 1.2em;
+    color: white;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  header .nav-contentdesktop li {
+    padding-left: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .nav-contentdesktop li .nav-style-center i {
+    padding-right: 0.5em;
+  }
+  header .right-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.8em;
+    margin: auto;
+    margin-right: 1em;
+  }
+  header .right-icons .right-fitsize a {
+    color: white;
+  }
+  header .right-icons .right-fitsize2 a {
+    padding-left: 0.5em;
+    color: white;
+  }
+  #slider .nav-content {
+    display: none;
+  }
+  main {
+    min-height: 430vh;
+    background-color: #0a192f;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  main .right-content {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .profilepic {
+    max-width: 24.1%;
+    max-height: 65%;
+    position: absolute;
+    top: 35vh;
+    right: 25vw;
+    z-index: 2;
+  }
+  main .right-content #sectionabouthome h1 {
+    display: none;
+  }
+  main .right-content #sectionabouthome .name {
+    display: none;
+  }
+  main .right-content #sectionabouthome .orangeoutline2 {
+    max-height: 25%;
+    max-width: 13%;
+    position: absolute;
+    top: 7.5em;
+    right: 38em;
+    z-index: 98;
+    -webkit-animation: action 0.8s infinite alternate;
+    animation: action 0.8s infinite alternate;
+  }
+  @-webkit-keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  main .right-content #sectionabouthome .style2 {
+    margin-top: 25em;
+  }
+  main .right-content #sectionabouthome .style2 h3 {
+    font-size: 2.5em;
+    color: #f17935;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white {
+    color: white;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line {
+    display: block;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line2 {
+    display: block;
+  }
+  main .right-content #sectionabouthome .link-style1 {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .link-style1 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5em;
+    border-radius: 0.1em;
+  }
+  main .right-content #sectionabouthome .link-style2 {
+    margin-top: 2.5em;
+  }
+  main .right-content #sectionabouthome .link-style2 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionaboutme {
+    min-height: 70vh;
+    margin-top: 15em;
+    background-color: white;
+    border-radius: 0.3em;
+  }
+  main #sectionaboutme .all-headings {
+    padding-top: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #F17935;
+  }
+  main #sectionaboutme .all-headings span {
+    color: #0A192F;
+  }
+  main #sectionaboutme h1 {
+    display: none;
+  }
+  main #sectionaboutme .aboutme .p-style1 {
+    padding-top: 3em;
+    width: 92%;
+    margin: auto;
+  }
+  main #sectionaboutme .aboutme .p-style1 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style2 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style2 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style3 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style3 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .link-style3 {
+    margin-top: 3.5em;
+    text-align: center;
+  }
+  main #sectionaboutme .aboutme .link-style3 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #f17935;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionmywork {
+    min-height: 65vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmywork .rotating {
+    margin-top: 3em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  main #sectionmywork .rotating a i {
+    color: #0A192F;
+    font-size: 6em;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: rotate 3s infinite;
+            animation: rotate 3s infinite;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+            animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+  }
+  main #sectionmywork .rotating a i:hover {
+    color: #F17935;
+  }
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  main #sectionmywork h1 {
+    text-align: center;
+    color: #F17935;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+  }
+  main #sectionmywork .box-flex .document1 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document2 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document3 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest {
+    min-height: 45vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmyinterest .icon-background {
+    display: none;
+  }
+  main #sectionmyinterest h1 {
+    padding-top: 1em;
+    color: #F17935;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  main #sectionmyinterest .box-flex .document1 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document2 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document3 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  Footer {
+    background-color: #172A45;
+    min-height: 20vh;
+    text-align: center;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    padding-top: 2em;
+  }
+  Footer .f1 {
+    padding: 1em;
+  }
+  Footer .f1 h4 {
+    width: 70%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f1 p {
+    font-size: 0.9em;
+  }
+  Footer .f2 {
+    padding: 1em;
+  }
+  Footer .f2 h4 {
+    width: 100%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f2 p {
+    font-size: 0.9em;
+  }
+  Footer .f3 {
+    padding: 1em;
+  }
+  Footer .f3 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f3 p {
+    font-size: 0.9em;
+  }
+  Footer .f4 {
+    padding: 1em;
+  }
+  Footer .f4 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f4 p {
+    font-size: 0.9em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  * {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  header {
+    background-color: #0a192f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 5em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 0.4em black solid;
+    z-index: 100;
+  }
+  header .header-left {
+    color: #f17935;
+    margin: auto;
+  }
+  header #header-right {
+    display: none;
+  }
+  header .nav-contentdesktop {
+    font-size: 1.2em;
+    color: white;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  header .nav-contentdesktop li {
+    padding-left: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .nav-contentdesktop li .nav-style-center i {
+    padding-right: 0.5em;
+  }
+  header .right-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.8em;
+    margin: auto;
+    margin-right: 1em;
+  }
+  header .right-icons .right-fitsize a {
+    color: white;
+  }
+  header .right-icons .right-fitsize2 a {
+    padding-left: 0.5em;
+    color: white;
+  }
+  #slider .nav-content {
+    display: none;
+  }
+  main {
+    min-height: 335vh;
+    background-color: #0a192f;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  main .right-content {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .profilepic {
+    max-width: 24.1%;
+    max-height: 65%;
+    position: absolute;
+    top: 35vh;
+    right: 25vw;
+    z-index: 2;
+  }
+  main .right-content #sectionabouthome h1 {
+    display: none;
+  }
+  main .right-content #sectionabouthome .name {
+    display: none;
+  }
+  main .right-content #sectionabouthome .orangeoutline2 {
+    max-height: 25%;
+    max-width: 13%;
+    position: absolute;
+    top: 7.5em;
+    right: 38em;
+    z-index: 98;
+    -webkit-animation: action 0.8s infinite alternate;
+    animation: action 0.8s infinite alternate;
+  }
+  @-webkit-keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  main .right-content #sectionabouthome .style2 {
+    margin-top: 25em;
+  }
+  main .right-content #sectionabouthome .style2 h3 {
+    font-size: 2.5em;
+    color: #f17935;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white {
+    color: white;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line {
+    display: block;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line2 {
+    display: block;
+  }
+  main .right-content #sectionabouthome .link-style1 {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .link-style1 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5em;
+    border-radius: 0.1em;
+  }
+  main .right-content #sectionabouthome .link-style2 {
+    margin-top: 2.5em;
+  }
+  main .right-content #sectionabouthome .link-style2 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionaboutme {
+    max-height: 80vh;
+    margin-top: 15em;
+    background-color: white;
+    border-radius: 0.3em;
+  }
+  main #sectionaboutme .all-headings {
+    padding-top: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #F17935;
+  }
+  main #sectionaboutme .all-headings span {
+    color: #0A192F;
+  }
+  main #sectionaboutme h1 {
+    display: none;
+  }
+  main #sectionaboutme .aboutme {
+    min-height: 50vh;
+  }
+  main #sectionaboutme .aboutme .p-style1 {
+    padding-top: 3em;
+    width: 92%;
+    margin: auto;
+  }
+  main #sectionaboutme .aboutme .p-style1 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style2 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style2 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style3 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style3 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .link-style3 {
+    margin-top: 3.5em;
+    text-align: center;
+  }
+  main #sectionaboutme .aboutme .link-style3 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #f17935;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionmywork {
+    min-height: 65vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmywork .rotating {
+    margin-top: 3em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  main #sectionmywork .rotating a i {
+    color: #0A192F;
+    font-size: 6em;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: rotate 3s infinite;
+            animation: rotate 3s infinite;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+            animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+  }
+  main #sectionmywork .rotating a i:hover {
+    color: #F17935;
+  }
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  main #sectionmywork h1 {
+    text-align: center;
+    color: #F17935;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+  }
+  main #sectionmywork .box-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main #sectionmywork .box-flex .document1 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document2 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document3 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest {
+    min-height: 45vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmyinterest .icon-background {
+    display: none;
+  }
+  main #sectionmyinterest h1 {
+    padding-top: 1em;
+    color: #F17935;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  main #sectionmyinterest .box-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main #sectionmyinterest .box-flex .document1 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document2 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document3 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  Footer {
+    background-color: #172A45;
+    min-height: 20vh;
+    text-align: center;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    padding-top: 2em;
+  }
+  Footer .f1 {
+    padding: 1em;
+  }
+  Footer .f1 h4 {
+    width: 70%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f1 p {
+    font-size: 0.9em;
+  }
+  Footer .f2 {
+    padding: 1em;
+  }
+  Footer .f2 h4 {
+    width: 100%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f2 p {
+    font-size: 0.9em;
+  }
+  Footer .f3 {
+    padding: 1em;
+  }
+  Footer .f3 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f3 p {
+    font-size: 0.9em;
+  }
+  Footer .f4 {
+    padding: 1em;
+  }
+  Footer .f4 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f4 p {
+    font-size: 0.9em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  * {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  header {
+    background-color: #0a192f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 5em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 0.4em black solid;
+    z-index: 100;
+  }
+  header .header-left {
+    color: #f17935;
+    margin: auto;
+  }
+  header #header-right {
+    display: none;
+  }
+  header .nav-contentdesktop {
+    font-size: 1.2em;
+    color: white;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  header .nav-contentdesktop li {
+    padding-left: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .nav-contentdesktop li .nav-style-center i {
+    padding-right: 0.5em;
+  }
+  header .right-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.8em;
+    margin: auto;
+    margin-right: 1em;
+  }
+  header .right-icons .right-fitsize a {
+    color: white;
+  }
+  header .right-icons .right-fitsize2 a {
+    padding-left: 0.5em;
+    color: white;
+  }
+  #slider .nav-content {
+    display: none;
+  }
+  main {
+    min-height: 335vh;
+    background-color: #0a192f;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  main .right-content {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .profilepic {
+    max-width: 24.1%;
+    max-height: 65%;
+    position: absolute;
+    top: 35vh;
+    right: 25vw;
+    z-index: 2;
+  }
+  main .right-content #sectionabouthome h1 {
+    display: none;
+  }
+  main .right-content #sectionabouthome .name {
+    display: none;
+  }
+  main .right-content #sectionabouthome .orangeoutline2 {
+    max-height: 25%;
+    max-width: 13%;
+    position: absolute;
+    top: 7.5em;
+    right: 38em;
+    z-index: 98;
+    -webkit-animation: action 0.8s infinite alternate;
+    animation: action 0.8s infinite alternate;
+  }
+  @-webkit-keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  main .right-content #sectionabouthome .style2 {
+    margin-top: 25em;
+  }
+  main .right-content #sectionabouthome .style2 h3 {
+    font-size: 2.5em;
+    color: #f17935;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white {
+    color: white;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line {
+    display: block;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line2 {
+    display: block;
+  }
+  main .right-content #sectionabouthome .link-style1 {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .link-style1 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5em;
+    border-radius: 0.1em;
+  }
+  main .right-content #sectionabouthome .link-style2 {
+    margin-top: 2.5em;
+  }
+  main .right-content #sectionabouthome .link-style2 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionaboutme {
+    max-height: 80vh;
+    margin-top: 15em;
+    background-color: white;
+    border-radius: 0.3em;
+  }
+  main #sectionaboutme .all-headings {
+    padding-top: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #F17935;
+  }
+  main #sectionaboutme .all-headings span {
+    color: #0A192F;
+  }
+  main #sectionaboutme h1 {
+    display: none;
+  }
+  main #sectionaboutme .aboutme {
+    min-height: 50vh;
+  }
+  main #sectionaboutme .aboutme .p-style1 {
+    padding-top: 3em;
+    width: 92%;
+    margin: auto;
+  }
+  main #sectionaboutme .aboutme .p-style1 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style2 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style2 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style3 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style3 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .link-style3 {
+    margin-top: 3.5em;
+    text-align: center;
+  }
+  main #sectionaboutme .aboutme .link-style3 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #f17935;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionmywork {
+    min-height: 65vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmywork .rotating {
+    margin-top: 3em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  main #sectionmywork .rotating a i {
+    color: #0A192F;
+    font-size: 6em;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: rotate 3s infinite;
+            animation: rotate 3s infinite;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+            animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+  }
+  main #sectionmywork .rotating a i:hover {
+    color: #F17935;
+  }
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  main #sectionmywork h1 {
+    text-align: center;
+    color: #F17935;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+  }
+  main #sectionmywork .box-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main #sectionmywork .box-flex .document1 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document2 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document3 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest {
+    min-height: 45vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmyinterest .icon-background {
+    display: none;
+  }
+  main #sectionmyinterest h1 {
+    padding-top: 1em;
+    color: #F17935;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  main #sectionmyinterest .box-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main #sectionmyinterest .box-flex .document1 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document2 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document3 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  Footer {
+    background-color: #172A45;
+    min-height: 20vh;
+    text-align: center;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    padding-top: 2em;
+  }
+  Footer .f1 {
+    padding: 1em;
+  }
+  Footer .f1 h4 {
+    width: 70%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f1 p {
+    font-size: 0.9em;
+  }
+  Footer .f2 {
+    padding: 1em;
+  }
+  Footer .f2 h4 {
+    width: 100%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f2 p {
+    font-size: 0.9em;
+  }
+  Footer .f3 {
+    padding: 1em;
+  }
+  Footer .f3 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f3 p {
+    font-size: 0.9em;
+  }
+  Footer .f4 {
+    padding: 1em;
+  }
+  Footer .f4 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f4 p {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  * {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  header {
+    background-color: #0a192f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 5em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 0.4em black solid;
+    z-index: 100;
+  }
+  header .header-left {
+    color: #f17935;
+    margin: auto;
+  }
+  header #header-right {
+    display: none;
+  }
+  header .nav-contentdesktop {
+    font-size: 1.2em;
+    color: white;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  header .nav-contentdesktop li {
+    padding-left: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .nav-contentdesktop li .nav-style-center i {
+    padding-right: 0.5em;
+  }
+  header .right-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.8em;
+    margin: auto;
+    margin-right: 1em;
+  }
+  header .right-icons .right-fitsize a {
+    color: white;
+  }
+  header .right-icons .right-fitsize2 a {
+    padding-left: 0.5em;
+    color: white;
+  }
+  #slider .nav-content {
+    display: none;
+  }
+  main {
+    min-height: 335vh;
+    background-color: #0a192f;
+    padding-left: 15em;
+    padding-right: 15em;
+  }
+  main .right-content {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .profilepic {
+    max-width: 24.1%;
+    max-height: 65%;
+    position: absolute;
+    top: 35vh;
+    right: 25vw;
+    z-index: 2;
+  }
+  main .right-content #sectionabouthome h1 {
+    display: none;
+  }
+  main .right-content #sectionabouthome .name {
+    display: none;
+  }
+  main .right-content #sectionabouthome .orangeoutline2 {
+    max-height: 25%;
+    max-width: 13%;
+    position: absolute;
+    top: 7.5em;
+    right: 38em;
+    z-index: 98;
+    -webkit-animation: action 0.8s infinite alternate;
+    animation: action 0.8s infinite alternate;
+  }
+  @-webkit-keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  main .right-content #sectionabouthome .style2 {
+    margin-top: 25em;
+  }
+  main .right-content #sectionabouthome .style2 h3 {
+    font-size: 2.5em;
+    color: #f17935;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white {
+    color: white;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line {
+    display: block;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line2 {
+    display: block;
+  }
+  main .right-content #sectionabouthome .link-style1 {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .link-style1 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5em;
+    border-radius: 0.1em;
+  }
+  main .right-content #sectionabouthome .link-style2 {
+    margin-top: 2.5em;
+  }
+  main .right-content #sectionabouthome .link-style2 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionaboutme {
+    max-height: 80vh;
+    margin-top: 15em;
+    background-color: white;
+    border-radius: 0.3em;
+  }
+  main #sectionaboutme .all-headings {
+    padding-top: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #F17935;
+  }
+  main #sectionaboutme .all-headings span {
+    color: #0A192F;
+  }
+  main #sectionaboutme h1 {
+    display: none;
+  }
+  main #sectionaboutme .aboutme {
+    min-height: 50vh;
+  }
+  main #sectionaboutme .aboutme .p-style1 {
+    padding-top: 3em;
+    width: 92%;
+    margin: auto;
+  }
+  main #sectionaboutme .aboutme .p-style1 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style2 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style2 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style3 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style3 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .link-style3 {
+    margin-top: 3.5em;
+    text-align: center;
+  }
+  main #sectionaboutme .aboutme .link-style3 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #f17935;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionmywork {
+    min-height: 65vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmywork .rotating {
+    margin-top: 3em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  main #sectionmywork .rotating a i {
+    color: #0A192F;
+    font-size: 6em;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: rotate 3s infinite;
+            animation: rotate 3s infinite;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+            animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+  }
+  main #sectionmywork .rotating a i:hover {
+    color: #F17935;
+  }
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  main #sectionmywork h1 {
+    text-align: center;
+    color: #F17935;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+  }
+  main #sectionmywork .box-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main #sectionmywork .box-flex .document1 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document2 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document3 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest {
+    min-height: 45vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmyinterest .icon-background {
+    display: none;
+  }
+  main #sectionmyinterest h1 {
+    padding-top: 1em;
+    color: #F17935;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  main #sectionmyinterest .box-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main #sectionmyinterest .box-flex .document1 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document2 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document3 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  Footer {
+    background-color: #172A45;
+    min-height: 20vh;
+    text-align: center;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    padding-top: 2em;
+  }
+  Footer .f1 {
+    padding: 1em;
+  }
+  Footer .f1 h4 {
+    width: 70%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f1 p {
+    font-size: 0.9em;
+  }
+  Footer .f2 {
+    padding: 1em;
+  }
+  Footer .f2 h4 {
+    width: 100%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f2 p {
+    font-size: 0.9em;
+  }
+  Footer .f3 {
+    padding: 1em;
+  }
+  Footer .f3 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f3 p {
+    font-size: 0.9em;
+  }
+  Footer .f4 {
+    padding: 1em;
+  }
+  Footer .f4 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f4 p {
+    font-size: 0.9em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1600px) {
+  * {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  header {
+    background-color: #0a192f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 5em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 0.4em black solid;
+    z-index: 100;
+  }
+  header .header-left {
+    color: #f17935;
+    margin: auto;
+  }
+  header #header-right {
+    display: none;
+  }
+  header .nav-contentdesktop {
+    font-size: 1.2em;
+    color: white;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  header .nav-contentdesktop li {
+    padding-left: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .nav-contentdesktop li .nav-style-center i {
+    padding-right: 0.5em;
+  }
+  header .right-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.8em;
+    margin: auto;
+    margin-right: 1em;
+  }
+  header .right-icons .right-fitsize a {
+    color: white;
+  }
+  header .right-icons .right-fitsize2 a {
+    padding-left: 0.5em;
+    color: white;
+  }
+  #slider .nav-content {
+    display: none;
+  }
+  main {
+    min-height: 335vh;
+    background-color: #0a192f;
+    padding-left: 25em;
+    padding-right: 25em;
+  }
+  main .right-content {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .profilepic {
+    max-width: 24.1%;
+    max-height: 65%;
+    position: absolute;
+    top: 35vh;
+    right: 25vw;
+    z-index: 2;
+  }
+  main .right-content #sectionabouthome h1 {
+    display: none;
+  }
+  main .right-content #sectionabouthome .name {
+    display: none;
+  }
+  main .right-content #sectionabouthome .orangeoutline2 {
+    max-height: 25%;
+    max-width: 13%;
+    position: absolute;
+    top: 7.5em;
+    right: 38em;
+    z-index: 98;
+    -webkit-animation: action 0.8s infinite alternate;
+    animation: action 0.8s infinite alternate;
+  }
+  @-webkit-keyframes action {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+  main .right-content #sectionabouthome .style2 {
+    margin-top: 25em;
+  }
+  main .right-content #sectionabouthome .style2 h3 {
+    font-size: 2.5em;
+    color: #f17935;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white {
+    color: white;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line {
+    display: block;
+  }
+  main .right-content #sectionabouthome .style2 h3 .style2-white .next-line2 {
+    display: block;
+  }
+  main .right-content #sectionabouthome .link-style1 {
+    margin-top: 5em;
+  }
+  main .right-content #sectionabouthome .link-style1 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5em;
+    border-radius: 0.1em;
+  }
+  main .right-content #sectionabouthome .link-style2 {
+    margin-top: 2.5em;
+  }
+  main .right-content #sectionabouthome .link-style2 a {
+    text-decoration: none;
+    color: white;
+    background-color: #4682b4;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionaboutme {
+    max-height: 80vh;
+    margin-top: 15em;
+    background-color: white;
+    border-radius: 0.3em;
+  }
+  main #sectionaboutme .all-headings {
+    padding-top: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #F17935;
+  }
+  main #sectionaboutme .all-headings span {
+    color: #0A192F;
+  }
+  main #sectionaboutme h1 {
+    display: none;
+  }
+  main #sectionaboutme .aboutme {
+    min-height: 50vh;
+  }
+  main #sectionaboutme .aboutme .p-style1 {
+    padding-top: 3em;
+    width: 92%;
+    margin: auto;
+  }
+  main #sectionaboutme .aboutme .p-style1 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style2 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style2 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .p-style3 {
+    width: 92%;
+    margin: auto;
+    padding-top: 1em;
+  }
+  main #sectionaboutme .aboutme .p-style3 p {
+    color: #0A192F;
+  }
+  main #sectionaboutme .aboutme .link-style3 {
+    margin-top: 3.5em;
+    text-align: center;
+  }
+  main #sectionaboutme .aboutme .link-style3 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #f17935;
+    padding: 0.8em 5.55em;
+    border-radius: 0.1em;
+  }
+  main #sectionmywork {
+    min-height: 65vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmywork .rotating {
+    margin-top: 3em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  main #sectionmywork .rotating a i {
+    color: #0A192F;
+    font-size: 6em;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: rotate 3s infinite;
+            animation: rotate 3s infinite;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+            animation-timing-function: cubic-bezier(1, 0, 0.5, 1);
+  }
+  main #sectionmywork .rotating a i:hover {
+    color: #F17935;
+  }
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  main #sectionmywork h1 {
+    text-align: center;
+    color: #F17935;
+    margin-bottom: 1em;
+    font-size: 2.5em;
+  }
+  main #sectionmywork .box-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main #sectionmywork .box-flex .document1 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document2 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmywork .box-flex .document3 {
+    max-width: 30%;
+    background-color: #172A45;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: 0.2em #4682b4 solid;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmywork .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmywork .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmywork .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmywork .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest {
+    min-height: 45vh;
+    background-color: white;
+    margin-top: 10em;
+    border-radius: 0.3em;
+    padding: 2em;
+  }
+  main #sectionmyinterest .icon-background {
+    display: none;
+  }
+  main #sectionmyinterest h1 {
+    padding-top: 1em;
+    color: #F17935;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  main #sectionmyinterest .box-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main #sectionmyinterest .box-flex .document1 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document1 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document1 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document1 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document2 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document2 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document2 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document2 .right-link i:hover {
+    color: #F17935;
+  }
+  main #sectionmyinterest .box-flex .document3 {
+    background-color: #172A45;
+    padding: 1em;
+    margin-top: 2em;
+    border: 0.2em #4682b4 solid;
+    z-index: 90;
+    width: 30%;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title h2 {
+    padding-top: 0.3em;
+    color: white;
+    font-size: 1em;
+  }
+  main #sectionmyinterest .box-flex .document3 .folder-title i {
+    color: #F17935;
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+  }
+  main #sectionmyinterest .box-flex .document3 p {
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.514);
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link {
+    text-align: right;
+    max-height: 3em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i {
+    color: white;
+    font-size: 2em;
+    padding-top: 0.5em;
+  }
+  main #sectionmyinterest .box-flex .document3 .right-link i:hover {
+    color: #F17935;
+  }
+  Footer {
+    background-color: #172A45;
+    min-height: 20vh;
+    text-align: center;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    padding-top: 2em;
+  }
+  Footer .f1 {
+    padding: 1em;
+  }
+  Footer .f1 h4 {
+    width: 70%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f1 p {
+    font-size: 0.9em;
+  }
+  Footer .f2 {
+    padding: 1em;
+  }
+  Footer .f2 h4 {
+    width: 100%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f2 p {
+    font-size: 0.9em;
+  }
+  Footer .f3 {
+    padding: 1em;
+  }
+  Footer .f3 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f3 p {
+    font-size: 0.9em;
+  }
+  Footer .f4 {
+    padding: 1em;
+  }
+  Footer .f4 h4 {
+    width: 50%;
+    margin: auto;
+    font-size: 1.2em;
+    border-bottom: 0.15em white solid;
+    margin-bottom: 0.5em;
+  }
+  Footer .f4 p {
+    font-size: 0.9em;
+  }
+}
+/*# sourceMappingURL=stylecopy.css.map */
